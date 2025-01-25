@@ -1,12 +1,12 @@
 .main {
   &__content {
-    padding: 40px 50px;
+    padding: 50px 40px;
     margin: 0;
 
     display: grid;
     grid-template-columns: repeat(1, 200px);
     justify-content: center;
-    gap: 48px 46px;
+    gap: 46px 48px;
 
     @include on-tablet {
       grid-template-columns: repeat(2, 200px);
